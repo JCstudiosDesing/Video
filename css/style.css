@@ -626,7 +626,7 @@ ol {
 }
 
 .counter__item {
-  background: #1a083d;
+  background: #001489;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
       transform: rotate(45deg);
@@ -858,7 +858,7 @@ ol {
   Footer
 -----------------------*/
 .footer {
-  background: #0a0119;
+  background: #001489;
 }
 
 .footer__top {
@@ -937,7 +937,7 @@ ol {
   height: 50px;
   width: 100%;
   padding-left: 20px;
-  border: 1px solid #544E5E;
+  border: 1px solid #6E8EA0;
   background: transparent;
   font-size: 16px;
   color: #adadad;
