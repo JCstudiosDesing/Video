@@ -24,15 +24,10 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
-    <meta charset="UTF-8">
-  <style>
-    img {
-      width: 300px;
-      cursor: zoom-in;
-      border-radius: 8px;
-      transition: 0.3s ease;
-    }
-  </style>
+    <script src="https://unpkg.com/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+<script>
+  mediumZoom('.zoom-img');
+</script>
 
 </head>
 
@@ -117,6 +112,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 mix you">
                     <div class="portfolio__item">
                         <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-6.jpg">
+                            <img src="img/portfolio/portfolio-6.jpg" class="zoom-img" alt="Imagen" width="300">
                         </div>
                         <div class="portfolio__item__text">
                             <h4>De 0 a 100</h4>
